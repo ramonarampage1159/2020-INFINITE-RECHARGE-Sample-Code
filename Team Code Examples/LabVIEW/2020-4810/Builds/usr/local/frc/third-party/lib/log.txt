@@ -1,0 +1,153 @@
+(0)	[GUI]Enabled
+(0)	[GUI]Selected:
+(80)	[GUI]System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.Persistor.LoadFromXml(DockPanel dockPanel, Stream stream, DeserializeDockContent deserializeContent, Boolean closeStream)
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.LoadFromXml(Stream stream, DeserializeDockContent deserializeContent)
+   at CTRE_Phoenix_GUI_Dashboard.frmDashboard.()
+(180)	[BackEnd]Entered State:Connecting
+(710)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(1219)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(1749)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(2259)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(2779)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(3289)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(3809)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(4309)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(4839)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(5349)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(5879)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(6388)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(6918)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(7428)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(7957)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(8467)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(8997)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(9507)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(10036)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(10546)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(11076)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(11585)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(12115)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(12625)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(13145)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(13654)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(14184)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(14694)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(15223)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(15724)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(16244)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(16753)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(17283)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(17793)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(18322)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(18832)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(19362)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(19872)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(20402)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(20911)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(21431)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(21941)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(22471)	[HTTP]System.Exception: Http GET timed out on http://172.22.11.2:1250/?&id=0&action=getversion after 500 ms
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.(String , Int32 )
+   at CTRE.Phoenix.Diagnostics.HTTP.WebExchange.HttpGet(HostNameAndPort hostName, String model, Byte deviceID, ActionType action, String& response, String extraOptions, Int32 timeout)
+(22940)	[GUI]Shutting Down Backend...
+(22940)	[BackEnd]Requesting Disposing State
+(22980)	[ICMP]System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at CTRE.Phoenix.Diagnostics.HTTP.IcmpTestConnection.Test(HostNameAndPort hostName, Int32 timeoutMs)
+(22980)	[BackEnd]Entered Disposing State
+(22980)	[BackEnd]Waiting for Disposed confirmation.
+(23000)	[BackEnd]Entered State:Disposed
+(23040)	[BackEnd]Disposed confirmation received
+(23060)	[BackEnd]Thread0 shutdown complete
+(23070)	[BackEnd]Thread1 shutdown complete
+(23160)	[BackEnd]Thread2 shutdown complete
